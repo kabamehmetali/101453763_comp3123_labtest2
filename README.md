@@ -1,3 +1,6 @@
+# Mehmet Ali KABA
+# 101453763
+
 
 # Weather App
 
@@ -102,8 +105,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **GitHub**: [Your GitHub Profile](https://github.com/kabamehmetali/)
 
 ---
 
