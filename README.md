@@ -15,22 +15,6 @@ A simple and user-friendly weather application built with ReactJS. The app allow
 
 ---
 
-## Screenshots
-
-### Home Page
-
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
-
-### Weather Cards
-
-![Weather Cards](https://via.placeholder.com/800x400?text=Weather+Cards+Screenshot)
-
-### Modal View
-
-![Modal View](https://via.placeholder.com/800x400?text=Modal+View+Screenshot)
-
----
-
 ## Technologies Used
 
 - **Frontend**: ReactJS
@@ -120,3 +104,22 @@ For any questions or suggestions, feel free to reach out:
 
 - **Email**: your-email@example.com
 - **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+
+---
+
+## Screenshots
+
+### Default Home Page
+![Default Home Page](./images/default%20home%20page.png)
+
+### Another Home Page View
+![Another Home Page](./images/anotherhome%20page.png)
+
+### Search Box with Autocomplete
+![Search Box](./images/searchbox.png)
+
+### Popup Details View
+![Popup Details](./images/popupdetails.png)
+
+### Postman API Testing
+![Postman API Testing](./images/postman.png)
