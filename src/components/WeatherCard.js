@@ -1,4 +1,4 @@
-// src/components/WeatherCard.js
+
 import React from 'react';
 
 const WeatherCard = ({ weather, city, isToday }) => {

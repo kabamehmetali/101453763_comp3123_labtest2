@@ -1,4 +1,4 @@
-// src/components/WeatherModal.js
+
 import React from 'react';
 
 const WeatherModal = ({ weather, city, onClose }) => {

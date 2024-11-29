@@ -8,7 +8,7 @@ import { fetchWeather, fetchForecast } from './api';
 
 const App = () => {
     const [city, setCity] = useState('Toronto');
-    const [displayCity, setDisplayCity] = useState('Toronto'); // Dynamic city display
+    const [displayCity, setDisplayCity] = useState('Toronto'); 
     const [forecast, setForecast] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -33,7 +33,7 @@ const App = () => {
 
                 const combinedForecast = [todayWeather, ...dailyData];
                 setForecast(combinedForecast);
-                setDisplayCity(capitalize(city)); // Set capitalized city name
+                setDisplayCity(capitalize(city)); 
             } catch (err) {
                 setError('Failed to fetch weather data. Please try again.');
             } finally {
@@ -54,7 +54,7 @@ const App = () => {
 
     const handleCardClick = (weather) => {
         if (weather.name) {
-            setDisplayCity(capitalize(weather.name)); // Update city name dynamically
+            setDisplayCity(capitalize(weather.name)); 
         }
         setSelectedWeather(weather);
     };
@@ -91,7 +91,7 @@ const App = () => {
             {selectedWeather && (
                 <WeatherModal
                     weather={selectedWeather}
-                    city={displayCity} // Pass the city name to the modal
+                    city={displayCity}
                     onClose={handleCloseModal}
                 />
             )}
